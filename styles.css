@@ -1,0 +1,115 @@
+
+
+.container{
+
+    border: 1px solid black;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+
+}
+
+
+
+.flex-blackjack-row-1, .flex-blackjack-row-2,  .flex-blackjack-row-3{
+   
+    
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+
+
+.flex-blackjack-row-1, .flex-blackjack-row-2{
+    color: white;
+    background: url('https://cdnroute.bpsgameserver.com/common/Common/Common/neutral/image/2017/03/game.netentBlackjack3Hand.backgroundimage_v3.jpg') ;
+
+
+}
+
+
+.flex-blackjack-row-1 div{
+
+    border: 1px solid black;
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+    height: 450px;
+
+}
+
+
+.flex-blackjack-row-1 img{
+
+    width: 25%;
+    padding: 10px;
+
+}
+
+
+
+
+.flex-blackjack-row-2 button{
+
+    border: 1px solid black;
+    padding: 10px;
+
+
+}
+
+.flex-blackjack-row-2 div{
+
+    border:  1px solid black;
+    padding: 10px;
+
+}
+
+
+
+
+
+.btn1, .btn2, .btn3{
+
+    height: 80px;
+    width: 80px;
+    margin: 2px;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+.btn1{
+
+    background-color: red;
+ 
+    
+}
+
+.btn2{
+
+    background-color: green;
+    
+}
+
+.btn3{
+
+    background-color: blue;
+    
+}
+
+
+
+
+table, th, td{
+
+
+    border: 1px solid black;
+    margin: 0;
+
+}
